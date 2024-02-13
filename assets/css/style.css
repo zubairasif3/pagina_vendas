@@ -1,0 +1,553 @@
+@font-face {
+    font-family: 'NunitoSans';
+    src: url(fontes/NunitoSans_7pt-Regular.ttf);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    line-height: normal;
+    font-family: 'NunitoSans';
+    padding-top: 70px;
+}
+a,
+.btn {
+    color: inherit;
+    outline: 0px !important;
+    box-shadow: none !important;
+}
+.btn-main {
+    background-color: #fe0033;
+    color: #fff;
+    padding: 10px 25px;
+    font-size: 20px;
+    line-height: normal;
+    border-radius: 4px;
+}
+.text-7743e3 {
+    color: #7743e3;
+}
+.bg-f9f9f9 {
+    background-color: #f9f9f9;
+}
+.bg-efefef {
+    background-color: #efefef;
+}
+.bg-000 {
+    background-color: #000;
+}
+
+.header .navbar-content{
+    background-color: #fff;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    z-index: 10000;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+}
+.header .navbar-content .form-group {
+    display: flex;
+    background-color: #f9f9fb;
+    border: 1px solid rgb(201, 197, 197);
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.header .navbar-content .form-group select{
+    background-color: transparent;
+    border: 0px;
+    font-size: 14px;
+    outline: 0px;
+}
+.header .navbar-content .form-group input {
+    border: 0px;
+    font-size: 18px;
+    margin-left: 12px;
+    padding-left: 10px;
+    outline: 0px;
+    width: 250px;
+}
+.header .navbar-content .form-group .btn-submit{
+    border-radius: 0px 20px 20px 0px;
+    background-color: #404040;
+    color: #fff;
+    height: 100%;
+    width: 60px;
+}
+.header .navbar-content .navbar-nav .nav-link{
+    font-size: 14px;
+    color: #181c1f;
+    padding: 8px 12px;
+}
+
+.artes-section{
+    padding: 70px 10px 90px;
+}
+.team-slider,
+.hero-section {
+    padding: 50px 10px;
+}
+.hero-section .heading {
+    font-size: 38px;
+    font-weight: bold;
+    max-width: 560px;
+    margin-bottom: 18px;
+}
+.hero-section .text {
+    max-width: 420px;
+    margin-bottom: 22px;
+}
+
+.team-slider {
+    padding-bottom: 10px;    
+}
+.team-slider .title{
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.artes-section .heading {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 70px;
+}
+.artes-section .artes-card {
+    margin-right: 10px;
+}
+.artes-section .title {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 18px;
+    max-width: 300px;
+    margin-bottom: 14px;
+}
+.artes-section .text {
+    font-size: 14px;
+}
+
+.c-logo-section {
+    padding: 110px 10px 70px;
+}
+.c-logo-section .left-flex {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.c-logo-section .left-flex .text {
+    font-size: 34px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.c-logo-section .left-flex .text {
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.celular-section {
+    padding: 35px 10px 70px;
+    background-image: url('../images/celular-bg.png');
+    background-position: center right;
+    background-size: 92% ;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.celular-section .heading {
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.celular-section .text {
+    margin-bottom: 20px;
+}
+
+.conteudo-section{
+    padding: 150px 10px;
+}
+.conteudo-section .top-content{
+    max-width: 550px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+.conteudo-section .tag{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.conteudo-section .heading{
+    font-size: 34px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.conteudo-section .conteudo-card{
+    margin: 80px 0px;
+    border: 2px solid #7743e3;
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 100px 30px;
+    position: relative;
+}
+.conteudo-section .conteudo-card .vector-top-img{
+    position: absolute;
+    top: -70px;
+    right: -10px;
+    max-width: 200px;
+}
+.conteudo-section .conteudo-card .content {
+    max-width: 950px;
+    margin: auto;
+}
+.conteudo-section .conteudo-card .content .heading{
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 22px;
+}
+.conteudo-section .conteudo-card .content .price-div{
+    margin-top: 28px;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.conteudo-section .conteudo-card .content .price-div .curreny-bg{
+    display: inline-block;
+    padding: 5px 5px;
+    background-color: #7743e3;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50%;
+    margin-right: 6px;
+}
+.conteudo-section .conteudo-card .content .price-div .text-7743e3{
+    font-size: 24px;
+}
+.conteudo-section .conteudo-card .content .text{
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.conteudo-section .conteudo-card .content .img{
+    margin-bottom: 16px;
+}
+.conteudo-section .conteudo-card .content .btn-main{
+    margin-bottom: 8px;
+}
+.conteudo-section .conteudo-card .content .imgs img{
+    width: 100px;
+}
+
+.garantia-section {
+    padding: 80px 10px;
+    color: #fff;
+}
+.garantia-section .heading{
+    margin: 20px 0px;
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: bold;
+    max-width: 550px;
+}
+.garantia-section .heading span{
+    color: #ffc71e;
+}
+.garantia-section .text{
+    font-size: 18px;
+    max-width: 550px;
+}
+
+.full-carousel{
+    padding: 70px 10px;
+}
+.full-carousel .heading{
+    font-size: 34px;
+    line-height: 28px;
+    font-weight: bold;
+}
+.full-carousel .text{
+    font-size: 18px;
+    margin-bottom: 40px;
+    padding-top: 15px;
+}
+.full-carousel .item .title{
+    opacity: 0.6;
+    margin-top: 20px;
+    font-size: 18px;
+}
+.full-carousel .item .text {
+    padding-top: 0px;
+}
+.full-carousel .item .text a{
+    opacity: 0.6;
+    font-size: 18px;
+    color: #7743e3;
+    text-decoration: none;
+}
+
+.foto-section{
+    margin-bottom: -40px;
+    padding-top: 30px;
+}
+.foto-section .foto-bg{
+    background-color: #fafbfc;
+}
+.foto-section .foto-bg .content{
+    padding: 30px 20px;
+    max-width: 550px;
+    margin: auto;
+}
+.foto-section .foto-bg .heading{
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.faq-section{
+    background-color: #181c1f;
+    padding: 70px 10px 50px;
+    color: #fff;
+}
+.faq-section .tag{
+    font-size: 18px;
+    display: inline-block;
+    position: relative;
+    margin-bottom: 10px;
+}
+.faq-section .tag::after{
+    position: absolute;
+    width: 90px;
+    height: 2px;
+    background-color: #7743e3;
+    content: " ";
+    bottom: 0px;
+    left: 0px;
+}
+.faq-section .heading {
+    max-width: 280px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.faq-section .question {
+    max-width: 950px;
+    background-color: #fff;
+    padding: 20px;
+    color: #181c1f;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq-section .answer {
+    padding: 30px;
+    max-width: 910px;
+}
+
+.video-section{
+    padding: 50px 0px;
+}
+.video-section .top-content {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.video-section .left-container {
+    margin-right: 0px;
+    padding-right: 0px;
+    max-width: 1450px;
+}
+.video-section .title{
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 22px;
+    margin-top: 18px;
+}
+.video-section .text{
+    font-size: 18px;
+    color: #7743e3;
+}
+
+.footer-top-banner{
+    background-image: url('../images/footer-top-banner.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 400px;
+    margin-bottom: 40px;
+}
+
+.footer-section {
+    padding: 50px 10px;
+}
+.footer-section .footer-logo{
+    margin-bottom: 28px;
+}
+.footer-section .footer-text{
+    font-size: 16px;
+    max-width: 350px;
+}
+.footer-section .footer-link-heading{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 34px;
+}
+.footer-section .footer-link a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:767px) {
+    body{
+        font-size: 16px;
+    }
+    .header .navbar-content .form-group{
+        display: none;
+    }
+    .btn-main{
+        font-size: 14px;
+        padding: 8px 14px;
+    }
+    .video-section,
+    .artes-section,
+    .team-slider,
+    .hero-section{
+        padding: 30px 10px;
+    }
+    .foto-section .row,
+    .garantia-section .row,
+    .c-logo-section .row,
+    .hero-section .row{
+        flex-direction: column-reverse;
+    }
+    .header .navbar-content .navbar-nav{
+        align-items: flex-start !important;
+    }
+    .hero-section .heading{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .c-logo-section .iframe,
+    .hero-section .iframe,
+    .hero-section .text{
+        margin-bottom: 10px;
+    }
+    .c-logo-section .iframe iframe,
+    .hero-section .iframe iframe{
+        height: 100%;
+        min-height: 200px;
+    }
+    .video-section .top-content,
+    .foto-section .foto-bg .heading,
+    .full-carousel .heading,
+    .conteudo-section .conteudo-card .content .heading,
+    .conteudo-section .heading,
+    .celular-section .heading,
+    .artes-section .heading,
+    .team-slider .title{
+        font-size: 20px;
+    }
+    .artes-section .heading{
+        margin-bottom: 18px;
+    }
+    .artes-section .artes-card{
+        margin-bottom: 15px;
+    }
+    .artes-section .title{
+        margin: 12px 0px;
+    }
+    .c-logo-section .left-flex .text{
+        font-size: 20px;
+    }
+
+    .celular-section {
+        position: relative;
+        background-size: cover;
+    }
+    .celular-section::before {
+        content: " ";
+        width: 100%;
+        height: 14%;
+        top: 0px;
+        left: 0px;
+        background-color: #f9f9f9;
+        position: absolute;
+    }
+    .celular-section .container{
+        position: relative;
+    }
+    .celular-section .img{
+        text-align: center !important;
+    }
+    .celular-section .img img{
+        max-height: 350px;
+    }
+    .conteudo-section .col-12 {
+        padding: 0px;
+    }
+    .conteudo-section .top-content .img img{
+        width: 150px;
+    }
+    .conteudo-section .conteudo-card .vector-top-img{
+        max-width: 120px;
+        top: -50px;
+    }
+    .conteudo-section .conteudo-card{
+        margin: 50px 0px;
+    }
+    .conteudo-section .conteudo-card .check-listing .icon-text{
+        margin-bottom: 8px;
+    }
+    .conteudo-section .conteudo-card .content .price-div{
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .foto-section .foto-bg .heading,
+    .garantia-section .img {
+        margin-bottom: 15px;
+    }
+    .garantia-section .img img {
+        width: 200px;
+        margin: auto;
+    }
+    .garantia-section .heading { 
+        margin: 10px 0px;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .video-section .text,
+    .full-carousel .item .text a,
+    .garantia-section .text{
+        font-size: 16px;
+    }
+    .faq-section .question{
+        padding: 10px;
+    }
+    .faq-section .answer{
+        padding: 15px 18px;
+    }
+    .video-section .title{
+        font-size: 18px;
+    }
+    .footer-top-banner{
+        background-size: cover;
+        background-position: center;
+    }
+    .footer-section .col-12 {
+        margin-bottom: 20px;
+    }
+    .footer-section .footer-link-heading,
+    .footer-section .footer-link a,
+    .footer-section .footer-logo {
+        margin-bottom: 10px;
+    }
+}
+
+
+
