@@ -22,12 +22,14 @@ a,
     box-shadow: none !important;
 }
 .btn-main {
-    background-color: #fe0033;
+   
+     background-color: #fe0033;
     color: #fff;
-    padding: 10px 25px;
-    font-size: 20px;
+    padding: 20px 45px;
+    font-size: 17px;
     line-height: normal;
-    border-radius: 4px;
+    border-radius: 0px;
+    letter-spacing: 1px;
 }
 .text-7743e3 {
     color: #7743e3;
@@ -86,17 +88,19 @@ a,
 }
 
 .artes-section{
-    padding: 70px 10px 90px;
+    padding: 160px 10px 180px;
 }
 .team-slider,
 .hero-section {
-    padding: 50px 10px;
+    padding: 120px 10px 50px;
 }
 .hero-section .heading {
-    font-size: 38px;
-    font-weight: bold;
-    max-width: 560px;
+   font-size: 46px;
+    font-weight: 300;
+    max-width: 600px;
     margin-bottom: 18px;
+    line-height: 46px;
+    letter-spacing: -3px;
 }
 .hero-section .text {
     max-width: 420px;
@@ -112,9 +116,10 @@ a,
 }
 
 .artes-section .heading {
-    font-size: 30px;
-    font-weight: 600;
+        font-size: 41px;
+    font-weight: 300;
     margin-bottom: 70px;
+    letter-spacing: -2px;
 }
 .artes-section .artes-card {
     margin-right: 10px;
@@ -140,14 +145,17 @@ a,
     align-items: center;
 }
 .c-logo-section .left-flex .text {
-    font-size: 34px;
-    font-weight: bold;
-    line-height: 1.2;
+        font-size: 35px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    line-height: 36px;
 }
 
 .c-logo-section .left-flex .text {
-    font-size: 34px;
-    font-weight: bold;
+    font-size: 35px;
+    font-weight: 300;
+    letter-spacing: -2px;
+    line-height: 36px;
 }
 
 .celular-section {
@@ -159,36 +167,49 @@ a,
     color: #fff;
 }
 .celular-section .heading {
-    font-size: 38px;
-    font-weight: bold;
+       font-size: 38px;
+    font-weight: 300;
     margin-bottom: 18px;
+    line-height: 37px;
+    letter-spacing: -3px;
 }
 .celular-section .text {
-    margin-bottom: 20px;
+        margin-bottom: 27px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
 }
 
 .conteudo-section{
     padding: 150px 10px;
 }
 .conteudo-section .top-content{
-    max-width: 550px;
+   
     margin: auto;
     margin-bottom: 25px;
 }
 .conteudo-section .tag{
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 22px;
+    letter-spacing: 5px;
+    color: rgb(94 97 255);
+    font-weight: 300 !important;
 }
 .conteudo-section .heading{
-    font-size: 34px;
-    font-weight: bold;
+        font-size: 42px;
+    font-weight: 600;
     margin-bottom: 40px;
+    line-height: 44px;
+    letter-spacing: -2px;
+    margin-top: 25px;
+    color: #474747;
 }
 .conteudo-section .conteudo-card{
-    margin: 80px 0px;
-    border: 2px solid #7743e3;
+       margin: 80px 0px;
+    border: 3px solid #7743e3;
     background-color: #fff;
-    border-radius: 4px;
+    border-radius: 20px;
     padding: 100px 30px;
     position: relative;
 }
@@ -224,7 +245,7 @@ a,
     margin-right: 6px;
 }
 .conteudo-section .conteudo-card .content .price-div .text-7743e3{
-    font-size: 24px;
+    font-size: 24px; letter-spacing: 3px;
 }
 .conteudo-section .conteudo-card .content .text{
     font-size: 14px;
@@ -237,11 +258,15 @@ a,
     margin-bottom: 8px;
 }
 .conteudo-section .conteudo-card .content .imgs img{
-    width: 100px;
+    
+}
+.pb-3 {
+    padding-bottom: 1rem!important;
+    font-size: 16px !important;
 }
 
 .garantia-section {
-    padding: 80px 10px;
+    padding: 150px 10px 140px;
     color: #fff;
 }
 .garantia-section .heading{
@@ -258,19 +283,25 @@ a,
     font-size: 18px;
     max-width: 550px;
 }
+#cliente_nome {     margin-top: 20px;
+    margin-bottom: -9px; }
+#instagram_cliente { color: #4100ff !important;  }
 
 .full-carousel{
-    padding: 70px 10px;
+    padding: 120px 10px 70px;
 }
 .full-carousel .heading{
-    font-size: 34px;
+       font-size: 43px;
     line-height: 28px;
     font-weight: bold;
+    letter-spacing: -1px;
 }
 .full-carousel .text{
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 19px;
+    margin-bottom: 52px;
     padding-top: 15px;
+    letter-spacing: 4px;
+    margin-top: 8px;
 }
 .full-carousel .item .title{
     opacity: 0.6;
@@ -300,9 +331,11 @@ a,
     margin: auto;
 }
 .foto-section .foto-bg .heading{
-    font-size: 28px;
-    font-weight: bold;
+        font-size: 32px;
+    font-weight: 300;
     margin-bottom: 40px;
+    line-height: 33px;
+    letter-spacing: -1px;
 }
 
 .faq-section{
@@ -326,10 +359,13 @@ a,
     left: 0px;
 }
 .faq-section .heading {
-    max-width: 280px;
-    font-size: 28px;
+       max-width: 500px;
+    font-size: 39px;
     font-weight: bold;
     margin-bottom: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    margin-top: 20px;
 }
 .faq-section .question {
     max-width: 950px;
@@ -344,17 +380,19 @@ a,
     align-items: center;
 }
 .faq-section .answer {
-    padding: 30px;
+        padding: 30px;
     max-width: 910px;
+    font-size: 18px;
 }
 
 .video-section{
     padding: 50px 0px;
 }
 .video-section .top-content {
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 20px;
+                  font-size: 31px;
+    letter-spacing: 3px;
+    line-height: 35px;
+    margin: 55px 0px 65px;
 }
 .video-section .left-container {
     margin-right: 0px;
@@ -362,15 +400,19 @@ a,
     max-width: 1450px;
 }
 .video-section .title{
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 22px;
+   font-size: 19px;
+    font-weight: 300;
+    line-height: 26px;
     margin-top: 18px;
+    letter-spacing: 1px;
 }
 .video-section .text{
     font-size: 18px;
     color: #7743e3;
 }
+#receba {    font-size: 35px;
+    letter-spacing: 2px;
+    line-height: 36px;  }
 
 .footer-top-banner{
     background-image: url('../images/footer-top-banner.png');
@@ -411,8 +453,14 @@ a,
         display: none;
     }
     .btn-main{
-        font-size: 14px;
-        padding: 8px 14px;
+     background-color: #fff;
+    color: #fff;
+    padding: 20px 45px;
+    font-size: 17px;
+    line-height: normal;
+    border-radius: 0px;
+    letter-spacing: 1px;
+
     }
     .video-section,
     .artes-section,
@@ -437,6 +485,7 @@ a,
     .hero-section .iframe,
     .hero-section .text{
         margin-bottom: 10px;
+        line-height: 24px;
     }
     .c-logo-section .iframe iframe,
     .hero-section .iframe iframe{
@@ -451,7 +500,9 @@ a,
     .celular-section .heading,
     .artes-section .heading,
     .team-slider .title{
-        font-size: 20px;
+            font-size: 26px;
+    margin-bottom: 18px;
+    letter-spacing: -1px;
     }
     .artes-section .heading{
         margin-bottom: 18px;
