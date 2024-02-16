@@ -453,15 +453,21 @@ a,
         display: none;
     }
     .btn-main{
-     background-color: #fff;
+        font-size: 17px;
+        padding: 10px 20px;
+     /* background-color: #fff;
     color: #fff;
     padding: 20px 45px;
     font-size: 17px;
     line-height: normal;
     border-radius: 0px;
-    letter-spacing: 1px;
+    letter-spacing: 1px; */
 
     }
+    .full-carousel,
+    .garantia-section,
+    .conteudo-section,
+    .c-logo-section,
     .video-section,
     .artes-section,
     .team-slider,
@@ -480,6 +486,43 @@ a,
     .hero-section .heading{
         font-size: 20px;
         margin-bottom: 10px;
+        line-height: 26px;
+        letter-spacing: 0px;
+    }
+    .c-logo-section .left-flex {
+        gap: 14px;
+        align-items: flex-start;
+    }
+    .c-logo-section .left-flex img {
+        width: 40px;
+    }
+    .conteudo-section .heading br{
+        display: none;
+    }
+    .conteudo-section .conteudo-card .content .imgs {
+        display: flex;
+        align-items: center;
+    }
+    .full-carousel .text {
+        margin-bottom: 30px;
+    }
+    .full-carousel .item .text {
+        margin-bottom: 10px;
+    }
+    .full-carousel .item .text a {
+        word-wrap: break-word;
+        letter-spacing: normal;
+    }
+    .conteudo-section .conteudo-card .content .imgs img{
+        max-width: 120px !important;
+        margin-right: 12px !important;
+    }
+    .video-section .top-content{
+        margin-top: 20px;
+    }
+    #receba.tag {
+        font-size: 22px;
+        margin-bottom: 0px;
     }
     .c-logo-section .iframe,
     .hero-section .iframe,
@@ -492,6 +535,8 @@ a,
         height: 100%;
         min-height: 200px;
     }
+    #receba,
+    .faq-section .heading,
     .video-section .top-content,
     .foto-section .foto-bg .heading,
     .full-carousel .heading,
@@ -501,8 +546,9 @@ a,
     .artes-section .heading,
     .team-slider .title{
             font-size: 26px;
-    margin-bottom: 18px;
-    letter-spacing: -1px;
+        margin-bottom: 18px;
+        letter-spacing: -1px;
+        line-height: 30px;
     }
     .artes-section .heading{
         margin-bottom: 18px;
@@ -515,6 +561,7 @@ a,
     }
     .c-logo-section .left-flex .text{
         font-size: 20px;
+        line-height: 24px;
     }
 
     .celular-section {
@@ -551,6 +598,7 @@ a,
     }
     .conteudo-section .conteudo-card{
         margin: 50px 0px;
+        padding: 60px 30px;
     }
     .conteudo-section .conteudo-card .check-listing .icon-text{
         margin-bottom: 8px;
@@ -585,6 +633,7 @@ a,
     }
     .video-section .title{
         font-size: 18px;
+        letter-spacing: -1px;
     }
     .footer-top-banner{
         background-size: cover;
